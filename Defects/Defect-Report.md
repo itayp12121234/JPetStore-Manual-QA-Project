@@ -5,10 +5,10 @@
 During the first test execution round, three defects were identified and reported in Jira.
 
 | Defect | Severity | Priority | Final Status |
-|--------|----------|----------|--------------|
-| IP-65  |   High   | Highest  |    Closed    |
-| IP-66  |   Low    | Medium   |    Open      |
-| IP-67  |  Medium  | Medium   |    Open      |
+|---|---|---|---|
+| IP-65 | High | Highest | Closed |
+| IP-66 | Low | Medium | Open |
+| IP-67 | Medium | Medium | Open |
 
 ---
 
