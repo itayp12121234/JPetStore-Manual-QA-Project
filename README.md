@@ -8,7 +8,7 @@ The project covers the full manual testing process, including test planning, tes
 
 ## Project Documents
 
-- [Software Test Plan (STP)](docs/JPetStore-STP.pdf)
+- [Software Test Plan (STP)](docs/STP איתי פלג חנות חיות.docx)
 - [Software Test Results (STR)](docs/JPetStore-STR.pdf)
 - [Manual Test Cases](Test-Cases/JPetStore-Test-Cases.xlsx)
 - [Defect Report](Defects/Defect-Report.md)
