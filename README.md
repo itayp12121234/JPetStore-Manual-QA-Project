@@ -10,7 +10,7 @@ The project covers the full manual testing process, including test planning, tes
 
 - [Software Test Plan (STP)](docs/JPetStore-STP.pdf)
 - [Software Test Results (STR)](docs/JPetStore-STR.pdf)
-- [Manual Test Cases](Test-Cases/JPetStore-Test-Cases.xlsx)
+- [Manual Test Cases](Test-Cases/JPetStore-Test-Cases.csv)
 - [Defect Report](Defects/Defect-Report.md)
 
 ## Screenshots
