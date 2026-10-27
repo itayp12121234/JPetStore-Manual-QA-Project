@@ -2,16 +2,16 @@
 
 ## Overview
 
-This repository presents a complete Manual QA testing project performed on the JPetStore web application as part of my Software Quality Assurance studies.
+This repository presents a complete Manual QA testing project performed on the JPetStore web application.
 
 The project covers the full manual testing process, including test planning, test design, test execution, defect reporting, retesting, regression testing, and final test reporting.
 
 ## Project Documents
 
-- [Software Test Plan (STP)](docs/JPetStore-STP.pdf)
-- [Software Test Results (STR)](docs/JPetStore-STR.pdf)
-- [Manual Test Cases](Test-Cases/JPetStore-Test-Cases.pdf)
-- [Defect Report](Defects/Defect-Report.md)
+- [Software Test Plan (STP)](01_STP_JPetStore.pdf)
+- [Manual Test Cases](02_Test_Cases_JPetStore.pdf)
+- [Defect Report](03_Defect_Report_JPetStore.md)
+- [Software Test Results (STR)](04_STR_JPetStore.pdf)
 
 ## Screenshots
 
@@ -24,6 +24,7 @@ The project covers the full manual testing process, including test planning, tes
 - Jira
 - Xray
 - Google Chrome
+- GitHub
 
 ## Testing Techniques
 
@@ -33,20 +34,19 @@ The following black-box testing techniques were used during the project:
 - Boundary Value Analysis
 - Decision Tables
 - State Transition Testing
-- Error Guessing
+- Pairwise Testing
 
 ## Test Process
 
 The testing process included:
 
 - Designing and executing 20 manual test cases
-- Managing tests using Jira and Xray
+- Managing test cases and executions using Jira and Xray
 - Performing two testing rounds
 - Reporting and tracking software defects
 - Retesting failed test cases after fixes
 - Performing regression testing
-- Creating an STP document
-- Creating an STR document
+- Creating STP and STR documentation
 - Building a QA dashboard for test and defect tracking
 
 ## Areas Tested
@@ -57,7 +57,8 @@ The tested functionality included:
 - Login functionality
 - User session behavior
 - Product and category navigation
-- Purchase flow
+- Search functionality
+- Shopping cart and purchase flow
 - Required field validation
 - System behavior after defect fixes
 
@@ -73,9 +74,7 @@ The tested functionality included:
 
 Three defects were reported during the first testing round.
 
-### Second Test Round
-
-#### Retesting
+### Retesting
 
 | Result | Test Cases |
 |---|---:|
@@ -83,13 +82,15 @@ Three defects were reported during the first testing round.
 | Failed | 3 |
 | Total | 4 |
 
-#### Regression Testing
+### Regression Testing
 
 | Result | Test Cases |
 |---|---:|
 | Passed | 16 |
 | Failed | 0 |
 | Total | 16 |
+
+All 16 regression tests passed successfully, and no regression defects were identified.
 
 ## Final Test Status
 
@@ -105,49 +106,36 @@ Three defects were reported during the first testing round.
 
 A total of three defects were reported during testing.
 
-| Defect | Severity | Final Status |
-|---|---|---|
-| IP-65 | High | Closed |
-| IP-66 | Low | Open |
-| IP-67 | Medium | Open |
+| Defect | Severity | Priority | Final Status |
+|---|---|---|---|
+| IP-65 | High | Highest | Closed |
+| IP-66 | Low | Medium | Open |
+| IP-67 | Medium | Medium | Open |
 
-### Final Defect Status
+The high-severity defect was fixed and successfully verified during retesting.
 
-- 3 defects reported
-- 1 defect closed
+At the end of the project:
+
+- 3 defects were reported
+- 1 defect was closed
 - 2 defects remained open
-
-The high-severity defect discovered during the first testing round was successfully fixed and verified.
-
-## Regression Results
-
-All 16 regression tests passed successfully after the defect fixes.
-
-No regression defects were discovered during the second testing round.
+- No High-severity defects remained open
 
 ## Project Outcome
 
 Most of the tested functionality operated as expected.
 
-At the end of the testing process:
-
-- 17 of 20 test cases passed
-- 3 test cases remained failed
-- The high-severity defect was fixed
-- One medium-severity defect remained open
-- One low-severity defect remained open
-- All regression tests passed
-
-The remaining issues were related to user session behavior and navigation within the product categories.
+The remaining issues were related to user session behavior and navigation within product categories. The high-severity purchase-flow defect was resolved successfully, while all regression tests passed after the fix.
 
 ## Skills Demonstrated
 
-- Manual Testing
+- Manual Web Testing
+- Test Planning
 - Test Design
 - Test Execution
 - Defect Reporting
-- Regression Testing
 - Retesting
+- Regression Testing
 - Jira
 - Xray
 - Software Test Documentation
